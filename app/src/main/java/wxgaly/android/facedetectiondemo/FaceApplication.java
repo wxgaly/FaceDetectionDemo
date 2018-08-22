@@ -12,6 +12,6 @@ public class FaceApplication extends Application {
 
     public FaceApplication() {
         CrashHandler crashHandler = CrashHandler.getInstance();
-        crashHandler.init(getApplicationContext());
+//        crashHandler.init(getApplicationContext());
     }
 }
